@@ -8,8 +8,6 @@ import static io.restassured.RestAssured.*;
 Date" 28/07/2022
 Tester: Roberto Zumba Naranjo
 - Main class to execute the scenarios for CRUD operations
-- Reports under: test-output/index.html
-- Reports under: test-output/emailable-report.html
 - [not implemented]: Schema Validation
 * */
 
