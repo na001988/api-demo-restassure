@@ -16,7 +16,7 @@ Tester: Roberto Zumba Naranjo
 public class DemoAutomation {
 
     //from https://crudcrud.com/
-    String uri = "https://crudcrud.com/api/79067e61fdd44564a1f1955e04a1cac5";
+    String uri = "https://crudcrud.com/api/5ee3c8b1b6bd4842aecf830d0ed51ad7";
 
     @Test
     void Verify_API_Call() {
