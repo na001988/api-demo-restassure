@@ -112,7 +112,7 @@ public class DemoAutomation {
 
     }
 
-    @Test (priority = 4)
+    @Test (enabled = false)
     void Verify_single_record_is_deleted(){
         baseURI=uri;
         String my_id = (String) DataStore.getValue("my-id");
