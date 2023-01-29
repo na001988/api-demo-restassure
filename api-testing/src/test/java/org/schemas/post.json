@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome3",
+  "definitions": {
+    "Welcome3": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "FirstName": {
+          "type": "string"
+        },
+        "LastName": {
+          "type": "string"
+        },
+        "DateOfBirth": {
+          "type": "string"
+        },
+        "StartDate": {
+          "type": "string"
+        },
+        "Department": {
+          "type": "string"
+        },
+        "JobTitle": {
+          "type": "string"
+        },
+        "Email": {
+          "type": "string"
+        },
+        "Mobile": {
+          "type": "string"
+        },
+        "Address": {
+          "type": "string"
+        },
+        "BaseSalary": {
+          "type": "number"
+        },
+        "_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Address",
+        "BaseSalary",
+        "DateOfBirth",
+        "Department",
+        "Email",
+        "FirstName",
+        "JobTitle",
+        "LastName",
+        "Mobile",
+        "StartDate",
+        "_id"
+      ],
+      "title": "Welcome3"
+    }
+  }
+}
